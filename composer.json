@@ -1,0 +1,13 @@
+{
+    "name": "pascal08/phpstan-class-alias",
+    "description": "Reproduces https://github.com/phpstan/phpstan/issues/8414",
+    "require-dev": {
+        "phpstan/phpstan": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
